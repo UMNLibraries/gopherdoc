@@ -1,10 +1,8 @@
-# Welcome to (not) Goldydoc!
+# Welcome to Gopherdoc!
 
-Goldydoc is an effort to collaboratively build a University Libraries IT documentation system that is **accessible, legible, and convenient**.[^1]
+Gopherdoc is an effort to collaboratively build a University Libraries IT documentation system that is **accessible, legible, and convenient**. We can do it in a way that creates minimal hurdles for non-techies to use, without relying on third-party services, adding substantial costs, or creating an additional system admin burden. We can make it lightweight and not require megabytes of JavaScript like other publishing systems or third-party documentation tools.
 
-[^1]: '(not) Goldydoc' is used in this site so as to not run afoul of UMN Communications and marketing
-
-It was developed originally as part of University of Minnesota Libraries IT departmental discussions aimed at improving the creation and management of our documentation.
+It was developed originally as part of University of Minnesota Libraries IT departmental discussions aimed at improving the creation and management of our internal documentation.
 
 ## Google (where are the) Docs
 

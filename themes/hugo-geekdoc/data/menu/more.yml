@@ -3,8 +3,8 @@ more:
     ref: "https://www.lib.umn.edu"
     icon: "gdoc_home"
     external: true
-  - name: "Code Repository"
-    ref: "https://github.com/akierig/goldydoc"
+  - name: "Source Code"
+    ref: "https://github.com/UMNLibraries/gopherdoc"
     external: true
     icon: "gdoc_git"
 

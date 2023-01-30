@@ -1,7 +1,7 @@
 ---
-title: About Goldydoc
+title: About Gopherdoc
 date: "2022-09-12"
-description: About Goldydoc
+description: About Gopherdoc
 slug: /about
 ---
 

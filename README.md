@@ -1,24 +1,20 @@
-# Goldy, meet Hugo
+# Gophers, meet Hugo
 
-What if we created a docs site but used Hugo, a static site generator written in Go and distributed in binaries that don't require a small warehouse of gems or crates or `pip install...`.
+What if we created a docs site but used Hugo, a static site generator written in Go and distributed in binaries that don't require a small warehouse of crates or more gems than the Manhattan Diamond District or `pip install...` versioning hell. 
 
-## goldydoc and goldydoc-hugo
+We have the technology. We can build a University Libraries IT documentation system that is **accessible, legible, and convenient**. We can do it in a way that creates minimal hurdles for non-techies to use, without relying on third-party services, adding substantial costs, or creating an additional system admin burden. We can make it lightweight and not require megabytes of JavaScript like other publishing systems or third-party documentation tools.
 
-Goldydoc the site is served from [github.umn.edu/goldydoc](https://github.umn.edu/akierig/goldydoc) which is a submodule of this repository. If you don't use the `--recursive` flag when cloning this repo, you'll have problems.
+## Source Code
 
-Using the provided `hugo-build.sh` script will ask you for a summary (git commit message) of what you've done, build the site, then push both this repository and the generated site to github.umn.edu.
+Gopherdoc's public source code is hosted at [github.com/UMNLibraries/gopherdoc](https://github.com/UMNLibraries/gopherdoc).
 
 ## Usage
 
-1. Clone the repository: `git clone --recursive git@github.umn.edu:akierig/goldydoc-hugo.git && cd goldydoc-hugo` or using HTTP: `git clone --recursive https://github.umn.edu/akierig/goldydoc-hugo.git && cd goldydoc-hugo`
-2. Make your changes
+1. Clone the repository from: [https://github.com/UMNLibraries/gopherdoc](https://github.com/UMNLibraries/gopherdoc)
+2. Make your changes in the `/content` or `/static` folders.
 3. Don't forget to test: `hugo server -D` 
-4. Deploy! Assuming you already have `hugo` in your path, you can run `./hugo-build.sh` from the folder root. If you don't, you can either install from your package manager of choice or grab it from [`github.com/gohugoio/hugo`](https://github.com/gohugoio/hugo/releases).
+4. Deploy! This could be automated with a cronjob to pull from the git repository and run `hugo` however often. I'm sure there's some fancy Github built-in way to do it as well.
 
-### `hugo-build.sh` notes
+## Miscellany 
 
-hugo-build.sh is a tool that mostly works. And that's the finest thing I have to say about it.
-
-a couple of things that would strike Linux users as weird are because of the need to work-around MacOS packaging old versions of Bash and other common tools that are now under GPL-3 or use non-POSIX GNU extensions.
-
-
+This site was originally developed and refered to as 'Goldydoc' as an ode to the University of Minnesota's wonderful mascot, [Goldy](https://twin-cities.umn.edu/gopher-athletics/goldy-gopher). **rah! Go Gophers!**
