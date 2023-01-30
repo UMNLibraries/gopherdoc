@@ -1,0 +1,80 @@
+.TH "GOLDYDOC" "1" "2022-09-14" "1.0 Beta" "goldydoc"
+.SH NAME
+.PP
+goldydoc - Univeristy of Minnesota Libraries IT Documentation system
+.SH DESCRIPTION
+.PP
+\f[B]goldydoc\f[R] is a web based documentation system created with the
+use of hugo(1) and published using the University\[cq]s github.umn.edu
+system.
+.PP
+The following sections are available:
+.RS
+.TP
+\f[B]About Goldydoc\f[R]
+Content Hierarchy; Editing Help; Information about the site
+framework/theme and its features; Why Hugo and not MkDocs or Jekyll
+.TP
+\f[B]Current Projects\f[R]
+a directory of ongoing projects with links to repositories, project
+goals, status, and other relevant information
+.TP
+\f[B]Platforms\f[R]
+Platforms in this sense could refer to both centrally provided/managed
+systems (e.g., Shibboleth, OIT Hosted Drupal), locally managed systems
+(e.g., UDC, Geoportal, UMedia), and outsourced/externally managed
+systems (e.g., Alma).
+.TP
+\f[B]Policies\f[R]
+Information about departmental policies and guidelines, e.g., design
+system, git style etc.
+The site has the 2014 Log Retention policy as an example.
+.TP
+\f[B]Services\f[R]
+Services and tools we provide to the Libraries as a whole.
+For example, Shibboleth integration, SSL certificate managment, etc.
+.RE
+.SH CLONING
+.PP
+You must recursively clone the repository as the deployment repository
+is a git submodule.
+.PP
+to wit:
+.RS
+.PP
+git clone \[en]\[en]recursive github.umn.edu/libraries/goldydoc-hugo
+.RE
+.PP
+You \f[I]must\f[R] clone the primary repository recursively or you will
+regret it.
+.SH SITE DEPLOYMENT
+.PP
+To deploy goldydoc, ensure that hugo is within your PATH and that you
+have appropriate access to the
+\f[I]github.umn.edu/libraries/goldydoc-hugo\f[R] and
+\f[I]github.umn.edu/libraries/goldydoc\f[R] repositories.
+.PP
+from the root folder run:
+.RS
+.PP
+\&./hugo-build.sh
+.RE
+.PP
+and provide a record of your changes.
+.SH DEBUGGING
+.PP
+Hugo provides a testing server and extensive logging for testing before
+a site is deployed.
+Users are \f[I]strongly\f[R] encouraged to test extensively before
+committing and deploying changes.
+.RS
+.PP
+hugo server -vD
+.RE
+.SH SEE ALSO
+.PP
+hugo(1), git(1), git-submodule(1)
+.SH AUTHORS
+.PP
+ander kierig (akierig\[at]umn.edu), University Libraries Application
+Development

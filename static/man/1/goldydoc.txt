@@ -1,0 +1,79 @@
+GOLDYDOC(1)                        goldydoc                        GOLDYDOC(1)
+
+
+
+NAME
+       goldydoc - Univeristy of Minnesota Libraries IT Documentation system
+
+DESCRIPTION
+       goldydoc is a web based documentation system created with the use of
+       hugo(1) and published using the University's github.umn.edu system.
+
+       The following sections are available:
+
+              About Goldydoc
+                     Content Hierarchy; Editing Help; Information about the
+                     site framework/theme and its features; Why Hugo and not
+                     MkDocs or Jekyll.
+
+              Current Projects
+                     a directory of ongoing projects with links to
+                     repositories, project goals, status, and other relevant
+                     information.
+
+              Platforms
+                     Platforms in this sense could refer to both centrally
+                     provided/managed systems (e.g., Shibboleth, OIT Hosted
+                     Drupal), locally managed systems (e.g., UDC, Geoportal,
+                     UMedia), and outsourced/externally managed systems (e.g.,
+                     Alma).
+
+              Policies
+                     Information about departmental policies and guidelines,
+                     e.g., design system, git style etc. The site has the
+                     2014 Log Retention policy as an example.
+
+              Services
+                     Services and tools we provide to the Libraries as a
+                     whole. For example, Shibboleth integration, SSL
+                     certificate managment, etc.
+
+CLONING
+       You must recursively clone the repository as the deployment repository
+       is a git submodule.
+
+       to wit:
+
+              git clone --recursive github.umn.edu/libraries/goldydoc-hugo
+
+       You must clone the primary repository recursively or you will regret
+       it.
+
+SITE DEPLOYMENT
+       To deploy goldydoc, ensure that hugo is within your PATH and that you
+       have appropriate access to the github.umn.edu/libraries/goldydoc-hugo
+       and github.umn.edu/libraries/goldydoc repositories.
+
+       from the root folder run:
+
+              ./hugo-build.sh
+
+       and provide a record of your changes.
+
+DEBUGGING
+       Hugo provides a testing server and extensive logging for testing before
+       a site is deployed. Users are strongly encouraged to test extensively
+       before committing and deploying changes.
+
+              hugo server -vD
+
+SEE ALSO
+       hugo(1), git(1), git-submodule(1)
+
+AUTHORS
+       ander kierig (akierig@umn.edu), University Libraries Application
+       Development
+
+
+
+1.0 Beta                          2022-09-14                       GOLDYDOC(1)

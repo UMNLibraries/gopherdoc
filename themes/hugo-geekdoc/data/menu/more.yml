@@ -1,0 +1,10 @@
+more:
+  - name: "Libraries Home"
+    ref: "https://www.lib.umn.edu"
+    icon: "gdoc_home"
+    external: true
+  - name: "Code Repository"
+    ref: "https://github.com/akierig/goldydoc"
+    external: true
+    icon: "gdoc_git"
+
