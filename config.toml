@@ -22,7 +22,7 @@ pygmentsCodeFences = true
 
 [params]
   # (Optional, default 6) Set how many table of contents levels to be showed on page.
-  geekdocToC = 2
+  geekdocToC = 8
 
   # Set the path to a logo for the Geekdo relative to your 'static/' folder.
   geekdocLogo = "logo.png"

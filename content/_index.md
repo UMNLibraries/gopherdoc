@@ -1,12 +1,14 @@
 # Welcome to Gopherdoc!
 
-Gopherdoc is an effort to collaboratively build a University Libraries IT documentation system that is **accessible, legible, and convenient**. We can do it in a way that creates minimal hurdles for non-techies to use, without relying on third-party services, adding substantial costs, or creating an additional system admin burden. We can make it lightweight and not require megabytes of JavaScript like other publishing systems or third-party documentation tools.
+Gopherdoc is an effort to collaboratively build a University Libraries IT documentation system that is **accessible, legible, and convenient**. We can do it in a way that creates minimal hurdles for non-techies to use, without relying on third-party services, adding substantial costs, or creating an additional system admin burden. We can make it lightweight and not require megabytes of JavaScript like other publishing systems or third-party documentation tools. 
+
+We have the technology. We can do it without requiring a warehouse full of crates, more gems than the Manhattan Diamond District, or `pip` dependency hell.
 
 It was developed originally as part of University of Minnesota Libraries IT departmental discussions aimed at improving the creation and management of our internal documentation.
 
 ## Google (where are the) Docs
 
-google docs oh no
+Google Docs has a problem: it's not that good for structuring lots of stuff. It can be hard to use for some, and many people dislike having to use a webbrowser for longform writing. Somewhat ironically, it's not very good at making documents searchable or discoverable.
 
 ## Documentation System Requirements
 
@@ -21,4 +23,4 @@ google docs oh no
 ### Additional Requirements I Added
 - "aspirational compliance" with both the Libraries' [Design System](https://umnlibraries.github.io) and [University branding guidelines](https://university-relations.umn.edu/brand)
 - no webfonts/3rd Party hosted JS
-- any simple page like this one should be < 500kb or it's [too big](https://idlewords.com/talks/website_obesity.htm)
+- any simple page like this one should be < 500kb or it's [too big](https://idlewords.com/talks/website_obesity.htm) 

@@ -7,4 +7,15 @@ more:
     ref: "https://github.com/UMNLibraries/gopherdoc"
     external: true
     icon: "gdoc_git"
-
+  - name: "Write the Docs"
+    ref: "https://www.writethedocs.org/"
+    external: true
+    icon: "gdoc_language"
+  - name: "Linode: Docs as Code"
+    ref: "https://www.linode.com/blog/linode/docs-as-code-at-linode/"
+    external: true
+    icon: "gdoc_language"
+  - name: "Contact"
+    ref: "mailto:akierig@umn.edu"
+    external: true
+    icon: "gdoc_email"
