@@ -10,6 +10,10 @@ slug: geoportal
 | Hosting | Libraries AWS |
 | Production URL | [geo.btaa.org](https://geo.btaa.org) |
 
+> it's not about the money, USC & UCLA just needed better discoverability on their geospatial data assets.
+>
+> --- [mjb](https://umnlibraries.slack.com/archives/C025QRRRQ/p1656614407475499)
+
 ### Current efforts
 
 - updating Geoblacklight to track Blacklight version X.
